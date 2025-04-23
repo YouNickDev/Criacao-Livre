@@ -1,0 +1,262 @@
+<!--Tipo de Documento-->
+<!DOCTYPE html>
+ <!--Lingua-->  
+<html lang="pt-BR"> 
+ <!--Cérebro da página-->
+<head>
+ <!--Meta tegs-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!--Conexão com o CSS-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+    body {
+        ol ul {
+            display: none;
+            margin-left: 20px;   
+        }
+        ol ol {
+            display: none;
+            margin-left: 20px;
+        }
+    }
+    </style>
+ <!--Conexão com o JS-->
+    <link rel="JavaScript" href="script.js" type="text/javascript">
+ <!--Controle de cache de site-->
+    <meta http-equiv="cache-control" content="no-cache">
+ <!--Define autor-->
+    <meta name="author" content="You Nick Dev">
+ <!--Define descrição-->
+    <meta name="description" content="Explicativo, explain, portugues, HTML, CSS e JS, exemplo de código, tabela, lista, formulário, imagem, link, meta, title, head, body, script, input, label, table, td, tl, form, a href, li, ol, ul, dl, span, h1, h2, h3, p, br, hr">
+ <!--Icone do site / Aqui os dois funcionam,
+    mas será priorizado o arquivo '.ico'-->
+    <link rel="icon" href="imagens/computador-cerebro-280x180.png" type="image/png">
+ <!--Favicon.ico-->
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+ <!--título-->
+    <title>Explicativo</title>
+ <!--Onde para o cérebro-->
+</head>
+
+ <!--E entra o corpo!-->
+ <body>
+ <!--Título nivel 1-->
+    <h1>Comandos de 
+ <!--Link em texto-->
+    <a href="https://www.w3schools.com/html/" rel="W3Schools" target="_blank" type="external">HTML</a>
+    </h1>
+ <!--Título nivel 2-->
+    <h2>Titulo de maior valor!</h2>
+ <!--Título nivel 3-->
+    <h3>Titulo de valor secundario!</h3>
+ <!--Paragrafos-->
+    <p>Titulo vai até o <strong>sexto nivél</strong> de importancia sendo &lt;h6&gt; o de menor nivél</p>
+    <p><em>Lorem <sup>ipsum</sup></em> dolor sit amet, consectetur adipisicing. Dolore repellendus
+ <!--Marca-texto-->
+    <mark>ipsum</mark> 
+    expedita ullam velit cupiditate perspiciatis
+ <!--<BR> quebra de linha-->
+    <br>
+    totam at architecto unde <s>iure illum</s> , quis assumenda ratione voluptate. <small><sub>Quas quo incidunt</sub></small></p>
+ <!--<HR> linha horizontal-->
+    <hr>
+ <!--Listas-->
+    <h2>Listas</h2>
+    <h3>Listas de definição</h3>
+ <!--Definição-->
+    <dl type="_blank">
+        <dt>HTML</dt>
+        <dd>Hiper Text Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheet</dd>
+    </dl>
+    <hr>
+    <h3>Listas não ordenadas</h3>
+ <!--Não ordenadas-->
+    <ol>
+        <li type="none" onclick="toggleSublist(this)">Comandos:
+            <ul type="disc">
+                <li type="none">Principais</li>
+                <li title="Cerebro da Página">&lt;head&gt;</li>                <li title="Informações invisíveis ao usuário">&lt;meta&gt;</li>
+                <li title="Titulo Navegador">&lt;title&gt;</li>
+                <li title="Vincular recursos externos">&lt;link&gt;</li>
+                <li title="Corpo da Pagina">&lt;body&gt;</li>
+                <li type="none">Escrita:</li>
+                <li title="Título texto">&lt;h1&gt;</li>
+                <li title="Parágrafo">&lt;p&gt;</li>
+                <li title="Parágrafo com destaque">&lt;mark&gt;</li>
+                <li title="Parágrafo com negrito semantico">&lt;strong&gt;</li>
+                <li title="Parágrafo com negrito">&lt;b&gt;</li>
+                <li title="Parágrafo com itálico semantico">&lt;em&gt;</li>
+                <li title="Parágrafo com itálico">&lt;i&gt;</li>
+                <li title="Parágrafo com sublinhado">&lt;u&gt;</li>
+                <li title="Parágrafo com tachado">&lt;s&gt;</li>
+                <li title="Parágrafo com subscript">&lt;sub&gt;</li>
+                <li title="Parágrafo com superscript">&lt;sup&gt;</li>
+                <li title="Parágrafo com destaque">&lt;small&gt;</li>
+                <li type="none">Editores de conteudo visual:</li>
+                <li title="Quebra de linha">&lt;br&gt;</li>
+                <li title="Linha horizontal">&lt;hr&gt;</li>
+                <li title="Add imagem">&lt;img</li>
+                
+                <li title="Add Link clickavel">&lt;a href&gt;</li>
+                <li title="Add interatividade">&lt;script&gt;</li>
+                <li title="Add CSS na linha(não semantico)">&lt;span&gt;</li>
+                <li type="none">Formulário:</li>
+                <li title="Formulário">&lt;form&gt;</li>
+                <li title="Entrada">&lt;input&gt;</li>
+                <li title="Etiqueta">&lt;label&gt;</li>
+                <li type="none">Tabela:</li>
+                <li title="Tabela">&lt;table&gt;</li>
+                <li title="Add conteúdo na tabela">&lt;td&gt;</li>
+                <li title="Add linha na tabela&">&lt;tl&gt;</li> 
+                <li title="Table Head">&lt;th&gt;</li>
+                <li type="none">Lista:</li>
+                <li title="List Item">&lt;li&gt;</li>
+                <li title="Ordered List&">&lt;ol&gt;</li>
+                <li title="Unordered List">&lt;ul&gt;</li>
+                <li title="Description List">&lt;dl&gt;</li>
+                <li title="Description Term">&lt;dt&gt;</li>
+                <li title="Description Definition">&lt;dd&gt;</li>
+
+               
+            </ul>
+        </li>
+    </ol>
+<hr>    
+    <h3>listas ordenadas</h3>
+    <ul>
+        <li type="none" onclick="toggleSublist(this)">Type Lists &lt;ol&gt;/&lt;ul&gt;
+ <!--Ordenadas-->
+            <ol type="I">
+                <li>type="1"</li>
+                <li>type="i"</li>
+                <li>type="I"</li>
+                <li>type="a"</li>
+                <li>type="A"</li>
+                <li>type="circle"</li>
+                <li>type="square"</li>
+                <li>type="none"</li>
+                <li>type="disc"</li>   
+            </ol>
+            
+        </li>
+    </ul>    
+    
+    <ul>
+        <li type="none" onclick="toggleSublist(this)">Inputs:
+            <ol type="I">
+                <li>input="Checkbox"</li>
+                <li>input="Radio"</li>
+                <li>input="Text"</li>
+                <li>input="Email"</li>
+                <li>input="Password"</li>
+                <li>input="Number"</li>
+                <li>input="Date"</li>
+                <li>input="File"</li>
+                <li>input="Range"</li>
+                <li>input="Color"</li>
+                <li>input="Button"</li>
+                <li>input="Submit"</li>
+                <li>input="Reset"</li>
+                <li>input="Hidden"</li>
+                <li>input="Image"</li>
+                <li>input="Search"</li>
+                <li>input="Tel"</li>
+                <li>input="URL"</li>
+                <li>input="Time"</li>
+                <li>input="Month"</li>
+                <li>input="Week"</li>
+                <li>input="Datetime-local"</li>
+            </ol>
+        </li>
+    </ul>
+ <!--Java Script (Ocultar lista)-->
+    <script>
+        function toggleSublist(element) {
+            const sublist = element.querySelector('ol, ul'); // Seleciona a sublista dentro do elemento clicado
+            if (sublist) { // Verifica se a sublista existe
+                sublist.style.display = sublist.style.display === 'block' ? 'none' : 'block'; // Alterna a exibição da sublista
+            }
+        }
+    </script>
+<hr>
+    <h3>Tabela</h3>
+ <!--Tabela-->
+    <table border="1" cellpadding="10" cellspacing="1" width="30%">
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+            <th>Pontos</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>25</td>
+            <td>São Paulo</td>
+            <td>10</td>
+
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>30</td>
+            <td>Rio Grande do Sul</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>22</td>
+            <td>Minas Gerais</td>
+            <td>9</td>
+    </table>
+    <hr>
+    <h3>Formulário</h3>
+ <!--Formulário-->
+    <form action="https://www.google.com/search" method="get">
+        <div id="relogio" style="font-size: 24px; font-weight: bold;"></div>
+        <script>
+            function atualizarRelogio() {
+                const agora = new Date();
+                const horas = String(agora.getHours(3)).padStart(2, '0');
+                const minutos = String(agora.getMinutes(16)).padStart(2, '0');
+                const segundos = String(agora.getSeconds(25)).padStart(2, '0');
+                document.getElementById('relogio').textContent = `${horas}:${minutos}:${segundos}`;
+            }
+        
+            // Atualiza o relógio a cada segundo
+            setInterval(atualizarRelogio, 1000);
+        
+            // Inicializa o relógio imediatamente
+            atualizarRelogio();
+        </script><br>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data"><br><br>
+
+        <label for="cor">Cor:</label>
+        <input type="color" id="cor" name="cor"><br><br>
+        <label for="arquivo">Arquivo:</label>
+        <input type="file" id="arquivo" name="arquivo"><br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar"><br><br>
+    </form>
+    <hr>
+    <h3>Imagêns</h3>
+ <!--imagem interna -->
+    <img src="imagens/computador-cerebro-280x180.png" alt="Imagem de exemplo 2">
+    <br>
+ <!--Imagem externa + Dimensionamento-->
+    <img src="https://www.w3schools.com/w3images/lights.jpg" alt="Imagem de exemplo" width="280" height="180">
+    <br>
+
+
+ 
+
+</body>
+</html>
